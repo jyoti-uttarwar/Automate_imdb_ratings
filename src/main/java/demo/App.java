@@ -9,13 +9,10 @@ public class App {
     public void getGreeting() throws InterruptedException, MalformedURLException {
         TestCases tests = new TestCases(); // Initialize your test class
 
-        //TODO: call your test case functions one after other here
-
-        tests.testCase01();
+        //INTV-1/Session-7/4/Activity 9: Automate_imdb_ratings
+        tests.TC_ImdbRatings();
 
         //END Tests
-
-
         tests.endTest(); // End your test by clearning connections and closing browser
     }
 
